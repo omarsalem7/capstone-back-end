@@ -230,6 +230,7 @@ DEPENDENCIES
   devise
   devise-jwt
   fast_jsonapi
+  jwt
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors
