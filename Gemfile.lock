@@ -99,6 +99,7 @@ GEM
     erubi (1.10.0)
     fast_jsonapi (1.5)
       activesupport (>= 4.2)
+    ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.10.0)
@@ -230,6 +231,8 @@ DEPENDENCIES
   devise
   devise-jwt
   fast_jsonapi
+  ffi
+  jwt
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors
