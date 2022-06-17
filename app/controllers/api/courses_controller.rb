@@ -10,6 +10,11 @@ class Api::CoursesController < ApplicationController
     render json: @course, status: :created if @course.save
   end
 
+  def show
+    @course = Course.find(params[:id])
+    render json: @course
+  end
+
   def destroy
     @course = Course.find(params[:id])
     @course.destroy

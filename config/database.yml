@@ -21,17 +21,17 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   # Butler's default configuration
-  # username: postgres
-  # password: 2xgdp
-  # port: 5000
+  username: postgres
+  password: 2xgdp
+  port: 5000
 
 development:
   <<: *default
   database: capstone_back_end_development
   #####################
   # Omar configuration
-  username: postgres
-  password: 1234
+  # username: postgres
+  # password: 1234
   #####################
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
