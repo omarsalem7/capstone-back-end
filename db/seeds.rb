@@ -20,10 +20,16 @@ Course.create(name:"Expert golf", description:"this is the seccond training cour
 
 Course.create(name:"golf train", description:"this is the first training course",location: "Egypt", size:"5*6",price:455,image:"https://images.freeimages.com/images/large-previews/1c6/golf-ball-in-the-fairway-1394202.jpg")
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c3b1334fd4a084c5af1a88b588da1f5763f2cc80
 
 User.create(name:"test", role:"admin")
 Reservation.create(date:"21-7-2022", city:"cairo",user_id: 1, course_id: 1)
 Reservation.create(date:"22-5-2023", city:"Egypt",user_id: 1, course_id: 2)
 
+<<<<<<< HEAD
 =======
 >>>>>>> dev
+=======
+>>>>>>> c3b1334fd4a084c5af1a88b588da1f5763f2cc80
