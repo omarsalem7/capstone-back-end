@@ -4,4 +4,3 @@ class CurrentUserController < ApplicationController
     render json: current_user, status: :ok
   end
 end
-
