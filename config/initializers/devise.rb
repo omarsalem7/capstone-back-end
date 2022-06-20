@@ -16,16 +16,16 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
   # config.secret_key = 'f80e73ff2a864133641569208c49a934c0b33d25df3aab4dee53a6875eb39ffba679619a6a5b6d93355b0ca221e2008be44112514f227d10b016615a92ce25e9'
 
-  # config.jwt do |jwt|
-  #   jwt.secret = Rails.application.credentials.fetch(:secret_key_base)
-  #   jwt.dispatch_requests = [
-  #     ['POST', %r{^/login$}]
-  #   ]
-  #   jwt.revocation_requests = [
-  #     ['DELETE', %r{^/logout$}]
-  #   ]
-  #   jwt.expiration_time = 30.minutes.to_i
-  # end
+  config.jwt do |jwt|
+    jwt.secret = '505a6138055236274cfeec468662faa786b44079f4cee0157da4e5a8b1ac28d13f5189059c080b28e02471656d80ab33bdbf38bcaa9156b07e8388b7bc2c4e74'
+    jwt.dispatch_requests = [
+      ['POST', %r{^/login$}]
+    ]
+    jwt.revocation_requests = [
+      ['DELETE', %r{^/logout$}]
+    ]
+    jwt.expiration_time = 30.minutes.to_i
+  end
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
