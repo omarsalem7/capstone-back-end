@@ -50,8 +50,6 @@
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.8.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise-jwt (v0.9.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="digest (v3.1.0, rbenv: 3.0.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="dotenv (v2.7.6, rbenv: 3.0.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v2.7.6, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dry-auto_inject (v0.9.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dry-configurable (v0.15.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dry-container (v0.9.0, rbenv: 3.0.2) [gem]" level="application" />
