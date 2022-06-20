@@ -31,8 +31,8 @@ development:
   username: mymac
   #####################
   # Omar configuration
-  # username: postgres
-  # password: 1234
+  username: postgres
+  password: 1234
   #####################
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -70,8 +70,8 @@ test:
   username: mymac
   #####################
   # Omar configuration
-  # username: postgres
-  # password: 1234
+  username: postgres
+  password: 1234
   #####################
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
