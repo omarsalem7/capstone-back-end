@@ -9,7 +9,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   def respond_with(resource, _opts = {})
     if resource.persisted?
       render json: {
-        status: {code: 200, message: 'Signed up sucessfully.'},
+        status: {code: 200, message: 'Signed up successfully.'},
         data: UserSerializer.new(resource).serializable_hash[:data][:attributes]
       }
     else
@@ -26,7 +26,7 @@ class Users::SessionsController < Devise::SessionsController
 
   def respond_with(resource, _opts = {})
     render json: {
-      status: {code: 200, message: 'Logged in sucessfully.'},
+      status: {code: 200, message: 'Logged in successfully.'},
       data: UserSerializer.new(resource).serializable_hash[:data][:attributes]
     }, status: :ok
   end
