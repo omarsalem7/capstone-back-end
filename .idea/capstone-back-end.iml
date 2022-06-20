@@ -40,18 +40,27 @@
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v7.0.3, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v7.0.3, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ast (v2.4.2, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.18, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.12.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.3.14, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.10, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.5.0, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="devise (v4.8.1, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="devise-jwt (v0.9.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="digest (v3.1.0, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dry-auto_inject (v0.9.0, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dry-configurable (v0.15.0, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dry-container (v0.9.0, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dry-core (v0.7.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.10.0, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fast_jsonapi (v1.5, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.0.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.10.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.5.11, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="irb (v1.4.1, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jwt (v2.4.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.18.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.2, rbenv: 3.0.2) [gem]" level="application" />
@@ -64,6 +73,7 @@
     <orderEntry type="library" scope="PROVIDED" name="net-smtp (v0.3.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.8, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.13.6, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parallel (v1.22.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parser (v3.1.2.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v1.3.5, rbenv: 3.0.2) [gem]" level="application" />
@@ -80,6 +90,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.5.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.3.1, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="responders (v3.0.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.5, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop (v1.30.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-ast (v1.18.0, rbenv: 3.0.2) [gem]" level="application" />
@@ -90,6 +101,8 @@
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.4, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo-data (v1.2022.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="unicode-display_width (v2.1.0, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.9, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="warden-jwt_auth (v0.6.0, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.5, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.5.4, rbenv: 3.0.2) [gem]" level="application" />
@@ -176,7 +189,267 @@
   </component>
   <component name="RakeTasksCache">
     <option name="myRootTask">
-      <RakeTaskImpl id="rake" />
+      <RakeTaskImpl id="rake">
+        <subtasks>
+          <RakeTaskImpl description="" fullCommand="about" id="about" />
+          <RakeTaskImpl id="action_mailbox">
+            <subtasks>
+              <RakeTaskImpl id="ingress">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="action_mailbox:ingress:environment" id="environment" />
+                  <RakeTaskImpl description="" fullCommand="action_mailbox:ingress:exim" id="exim" />
+                  <RakeTaskImpl description="" fullCommand="action_mailbox:ingress:postfix" id="postfix" />
+                  <RakeTaskImpl description="" fullCommand="action_mailbox:ingress:qmail" id="qmail" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="action_mailbox:install" id="install" />
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="action_mailbox:install:migrations" id="migrations" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="action_text">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="action_text:install" id="install" />
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="action_text:install:migrations" id="migrations" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="active_storage">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="active_storage:install" id="install" />
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="active_storage:install:migrations" id="migrations" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="active_storage:update" id="update" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="app">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="app:template" id="template" />
+              <RakeTaskImpl id="templates">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="app:templates:copy" id="copy" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="app:update" id="update" />
+              <RakeTaskImpl id="update">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="app:update:active_storage" id="active_storage" />
+                  <RakeTaskImpl description="" fullCommand="app:update:bin" id="bin" />
+                  <RakeTaskImpl description="" fullCommand="app:update:configs" id="configs" />
+                  <RakeTaskImpl description="" fullCommand="app:update:db" id="db" />
+                  <RakeTaskImpl description="" fullCommand="app:update:upgrade_guide_info" id="upgrade_guide_info" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="db">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="db:_dump" id="_dump" />
+              <RakeTaskImpl description="" fullCommand="db:abort_if_pending_migrations" id="abort_if_pending_migrations" />
+              <RakeTaskImpl description="" fullCommand="db:charset" id="charset" />
+              <RakeTaskImpl description="" fullCommand="db:check_protected_environments" id="check_protected_environments" />
+              <RakeTaskImpl description="" fullCommand="db:collation" id="collation" />
+              <RakeTaskImpl description="" fullCommand="db:create" id="create" />
+              <RakeTaskImpl id="create">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:create:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:drop" id="drop" />
+              <RakeTaskImpl id="drop">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:drop:_unsafe" id="_unsafe" />
+                  <RakeTaskImpl description="" fullCommand="db:drop:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="encryption">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:encryption:init" id="init" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="environment">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:environment:set" id="set" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="fixtures">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:fixtures:identify" id="identify" />
+                  <RakeTaskImpl description="" fullCommand="db:fixtures:load" id="load" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:forward" id="forward" />
+              <RakeTaskImpl description="" fullCommand="db:load_config" id="load_config" />
+              <RakeTaskImpl description="" fullCommand="db:migrate" id="migrate" />
+              <RakeTaskImpl id="migrate">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:migrate:down" id="down" />
+                  <RakeTaskImpl description="" fullCommand="db:migrate:redo" id="redo" />
+                  <RakeTaskImpl description="" fullCommand="db:migrate:reset" id="reset" />
+                  <RakeTaskImpl description="" fullCommand="db:migrate:status" id="status" />
+                  <RakeTaskImpl description="" fullCommand="db:migrate:up" id="up" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:prepare" id="prepare" />
+              <RakeTaskImpl description="" fullCommand="db:purge" id="purge" />
+              <RakeTaskImpl id="purge">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:purge:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:reset" id="reset" />
+              <RakeTaskImpl id="reset">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:reset:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:rollback" id="rollback" />
+              <RakeTaskImpl id="schema">
+                <subtasks>
+                  <RakeTaskImpl id="cache">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="db:schema:cache:clear" id="clear" />
+                      <RakeTaskImpl description="" fullCommand="db:schema:cache:dump" id="dump" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                  <RakeTaskImpl description="" fullCommand="db:schema:dump" id="dump" />
+                  <RakeTaskImpl description="" fullCommand="db:schema:load" id="load" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:seed" id="seed" />
+              <RakeTaskImpl id="seed">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:seed:replant" id="replant" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:setup" id="setup" />
+              <RakeTaskImpl id="setup">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:setup:all" id="all" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="test">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="db:test:load" id="load" />
+                  <RakeTaskImpl description="" fullCommand="db:test:load_schema" id="load_schema" />
+                  <RakeTaskImpl description="" fullCommand="db:test:prepare" id="prepare" />
+                  <RakeTaskImpl description="" fullCommand="db:test:purge" id="purge" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="db:truncate_all" id="truncate_all" />
+              <RakeTaskImpl description="" fullCommand="db:version" id="version" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="default" id="default" />
+          <RakeTaskImpl description="" fullCommand="environment" id="environment" />
+          <RakeTaskImpl id="log">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="log:clear" id="clear" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="middleware" id="middleware" />
+          <RakeTaskImpl id="railties">
+            <subtasks>
+              <RakeTaskImpl id="install">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="railties:install:migrations" id="migrations" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="restart" id="restart" />
+          <RakeTaskImpl description="" fullCommand="secret" id="secret" />
+          <RakeTaskImpl description="" fullCommand="stats" id="stats" />
+          <RakeTaskImpl description="" fullCommand="test" id="test" />
+          <RakeTaskImpl id="test">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="test:all" id="all" />
+              <RakeTaskImpl description="" fullCommand="test:channels" id="channels" />
+              <RakeTaskImpl description="" fullCommand="test:controllers" id="controllers" />
+              <RakeTaskImpl description="" fullCommand="test:db" id="db" />
+              <RakeTaskImpl description="" fullCommand="test:functionals" id="functionals" />
+              <RakeTaskImpl description="" fullCommand="test:generators" id="generators" />
+              <RakeTaskImpl description="" fullCommand="test:helpers" id="helpers" />
+              <RakeTaskImpl description="" fullCommand="test:integration" id="integration" />
+              <RakeTaskImpl description="" fullCommand="test:jobs" id="jobs" />
+              <RakeTaskImpl description="" fullCommand="test:mailboxes" id="mailboxes" />
+              <RakeTaskImpl description="" fullCommand="test:mailers" id="mailers" />
+              <RakeTaskImpl description="" fullCommand="test:models" id="models" />
+              <RakeTaskImpl description="" fullCommand="test:prepare" id="prepare" />
+              <RakeTaskImpl description="" fullCommand="test:run" id="run" />
+              <RakeTaskImpl description="" fullCommand="test:system" id="system" />
+              <RakeTaskImpl description="" fullCommand="test:units" id="units" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="time">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="time:zones" id="zones" />
+              <RakeTaskImpl id="zones">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="time:zones:all" id="all" />
+                  <RakeTaskImpl description="" fullCommand="time:zones:local" id="local" />
+                  <RakeTaskImpl description="" fullCommand="time:zones:us" id="us" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="tmp" id="tmp" />
+          <RakeTaskImpl description="" fullCommand="tmp/cache" id="tmp/cache" />
+          <RakeTaskImpl description="" fullCommand="tmp/cache/assets" id="tmp/cache/assets" />
+          <RakeTaskImpl description="" fullCommand="tmp/pids" id="tmp/pids" />
+          <RakeTaskImpl description="" fullCommand="tmp/sockets" id="tmp/sockets" />
+          <RakeTaskImpl id="tmp">
+            <subtasks>
+              <RakeTaskImpl id="cache">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:cache:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="tmp:clear" id="clear" />
+              <RakeTaskImpl description="" fullCommand="tmp:create" id="create" />
+              <RakeTaskImpl id="pids">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:pids:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="screenshots">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:screenshots:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="sockets">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:sockets:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="storage">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="tmp:storage:clear" id="clear" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="yarn">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="yarn:install" id="install" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="zeitwerk">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="zeitwerk:check" id="check" />
+            </subtasks>
+          </RakeTaskImpl>
+        </subtasks>
+      </RakeTaskImpl>
     </option>
   </component>
 </module>
