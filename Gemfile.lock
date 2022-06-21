@@ -109,8 +109,6 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.6-x64-mingw-ucrt)
-      racc (~> 1.4)
     nokogiri (1.13.6-x64-unknown)
       racc (~> 1.4)
     nokogiri (1.13.6-x86_64-darwin)
@@ -187,7 +185,7 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
-  x64-mingw-ucrt
+  x64-unknown
   x64-unknown
   x86_64-darwin-19
   x86_64-linux
