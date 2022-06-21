@@ -28,6 +28,7 @@ default: &default
 development:
   <<: *default
   database: capstone_back_end_development
+  username: mymac
   #####################
   # Omar configuration
 #  username: postgres
@@ -66,6 +67,7 @@ development:
 test:
   <<: *default
   database: capstone_back_end_test
+  username: mymac
   #####################
   # Omar configuration
 #  username: postgres
