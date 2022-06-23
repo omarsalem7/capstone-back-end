@@ -6,6 +6,7 @@ ruby '3.1.1'
 gem 'devise'
 gem 'devise-jwt'
 gem 'fast_jsonapi'
+gem 'ffi', '~> 1.15', '>= 1.15.5'
 gem 'rswag'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -42,8 +43,14 @@ gem 'bootsnap', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
+group :test do
+  gem 'capybara'
+  gem 'selenium-webdriver'
+end
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem 'database_cleaner'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
   gem 'faker'
