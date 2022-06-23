@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe Reservation, type: :model do
-
   describe 'validations' do
     let(:user) { User.create(name: 'Ally', email: 'test@test.com', password: '123456') }
     let(:course) do

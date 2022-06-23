@@ -1,8 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Course, type: :model do
-  subject { described_class.new(name: 'Test Course', description: 'Best Course', location: 'Africa City',
-            price: '120', size: '20 by 40', image: 'photo.png') }
+  subject do
+    described_class.new(name: 'Test Course', description: 'Best Course', location: 'Africa City',
+                        price: '120', size: '20 by 40', image: 'photo.png')
+  end
 
   it 'is not valid without a name' do
     subject.name = nil
