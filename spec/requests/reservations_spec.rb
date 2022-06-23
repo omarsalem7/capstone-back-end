@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Reservations', type: :request do
-  reservation1 = Reservation.new(date: '24-06-2022', city: 'Test City')
+  Reservation.new(date: '24-06-2022', city: 'Test City')
 
   describe 'GET /index' do
     before(:example) { get '/api/reservations' }
