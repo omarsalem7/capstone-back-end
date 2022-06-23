@@ -1,0 +1,399 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/v1/courses/{id}":
+    get:
+      summary: Retrieves a course
+      tags:
+      - Courses
+      security:
+      - Bearer: {}
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: name found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  description:
+                    type: string
+                  location:
+                    type: string
+                  size:
+                    type: string
+                  price:
+                    type: string
+                  image:
+                    type: string
+                required:
+                - id
+                - name
+                - description
+                - location
+                - size
+                - price
+                - image
+            application/xml:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  description:
+                    type: string
+                  location:
+                    type: string
+                  size:
+                    type: string
+                  price:
+                    type: string
+                  image:
+                    type: string
+                required:
+                - id
+                - name
+                - description
+                - location
+                - size
+                - price
+                - image
+        '404':
+          description: Course not found
+    parameters:
+    - name: id
+      in: path
+      description: id
+      required: true
+      schema:
+        type: string
+    delete:
+      summary: delete course
+      tags:
+      - Courses
+      security:
+      - Bearer: {}
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Course deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                required:
+                - message
+        '404':
+          description: No courses found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                  error_message:
+                    type: array
+  "/v1/courses":
+    post:
+      summary: Creates a course
+      tags:
+      - courses
+      security:
+      - Bearer: {}
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '201':
+          description: course created
+        '422':
+          description: invalid request
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                name:
+                  type: string
+                description:
+                  type: string
+                location:
+                  type: string
+                size:
+                  type: string
+                price:
+                  type: string
+                image:
+                  type: string
+              required:
+              - id
+              - name
+              - description
+              - location
+              - size
+              - price
+              - image
+          application/xml:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                name:
+                  type: string
+                description:
+                  type: string
+                location:
+                  type: string
+                size:
+                  type: string
+                price:
+                  type: string
+                image:
+                  type: string
+              required:
+              - id
+              - name
+              - description
+              - location
+              - size
+              - price
+              - image
+    get:
+      summary: Get all courses
+      tags:
+      - Courses
+      security:
+      - Bearer: {}
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '200':
+          description: All courses fetched
+  "/reservations":
+    get:
+      summary: list reservations
+      tags:
+      - Reservations
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Get all reservations for a user
+        '404':
+          description: No reservation
+    post:
+      summary: create reservation
+      tags:
+      - Reservations
+      security:
+      - Bearer: {}
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Reservation created
+        '403':
+          description: Reservation not created
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                date:
+                  type: string
+                city:
+                  type: string
+                course_id:
+                  type: string
+              require:
+              - course_id
+              - date
+              - city
+  "/reservations/{id}":
+    delete:
+      summary: delete reservations
+      tags:
+      - Reservations
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: successful
+        '404':
+          description: not found
+  "/login":
+    post:
+      summary: Login to get user details and jwt token
+      tags:
+      - Users
+      parameters: []
+      responses:
+        '200':
+          description: user logged in
+        '401':
+          description: Invalid password
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+              require:
+              - email
+              - password
+  "/signup":
+    post:
+      summary: Creates a user
+      tags:
+      - Users
+      parameters: []
+      responses:
+        '200':
+          description: User created
+        '403':
+          description: Bad parameters
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+              - name
+              - email
+              - password
+          application/xml:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+              - name
+              - email
+              - password
+  "/current_user":
+    get:
+      summary: Fetch current user object
+      tags:
+      - Users
+      security:
+      - Bearer: {}
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '200':
+          description: current user has been found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  email:
+                    type: string
+                  image_url:
+                    type: string
+                  created_at:
+                    type: string
+                  updated_at:
+                    type: string
+                  image:
+                    type: object
+            application/xml:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  email:
+                    type: string
+                  image_url:
+                    type: string
+                  created_at:
+                    type: string
+                  updated_at:
+                    type: string
+                  image:
+                    type: object
+        '401':
+          description: Unathorized
+servers:
+- url: https://{defaultHost}
+  variables:
+    defaultHost:
+      default: www.example.com
