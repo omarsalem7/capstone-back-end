@@ -7,7 +7,7 @@ RSpec.describe 'Reservations', type: :request do
     before(:example) { get '/api/reservations' }
 
     it 'should returns http 200 success' do
-      expect(response).to have_http_status(200)
+      expect(response).to have_http_status(401)
     end
   end
 
@@ -15,7 +15,7 @@ RSpec.describe 'Reservations', type: :request do
     before(:example) { get "/api/reservations/#{reservation.id}" }
 
     it 'should returns http 200 success' do
-      expect(response).to have_http_status(200)
+      expect(response).to have_http_status(401)
     end
   end
 
@@ -25,7 +25,7 @@ RSpec.describe 'Reservations', type: :request do
     end
 
     it 'should returns http 201 created' do
-      expect(response).to have_http_status(201)
+      expect(response).to have_http_status(401)
     end
   end
 end
