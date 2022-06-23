@@ -28,7 +28,7 @@ default: &default
 development:
   <<: *default
   database: capstone_back_end_development
-  # username: mymac
+  username: mymac
   #####################
   # Omar configuration
   # username: postgres
@@ -67,15 +67,11 @@ development:
 test:
   <<: *default
   database: capstone_back_end_test
-  # username: mymac
+  username: mymac
   #####################
   # Omar configuration
   # username: postgres
   # password: 1234
-<<<<<<< HEAD
-=======
-
->>>>>>> 2a9088f9de61479bc4b1591b4eda2f4fecd53d02
   #####################
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
