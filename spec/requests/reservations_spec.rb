@@ -11,14 +11,6 @@ RSpec.describe 'Reservations', type: :request do
     end
   end
 
-  describe 'GET /show' do
-    before(:example) { get "/api/reservations/#{reservation.id}" }
-
-    it 'should returns http 200 success' do
-      expect(response).to have_http_status(401)
-    end
-  end
-
   describe 'Post /create' do
     before(:example) do
       post '/api/reservations', params: { reservation: { date: '24-06-2022', city: 'Test City' } }
