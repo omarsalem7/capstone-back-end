@@ -1,6 +1,7 @@
 class Api::ReservationsController < ApplicationController
+  before_action :authenticate_user!
   def index
-    reservations = Reservation.find(params[:id])
+    reservations = Reservation.where(user_id: current_user)
     render json: reservations, status: 200
   end
 
