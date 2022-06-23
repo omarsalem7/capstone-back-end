@@ -7,6 +7,7 @@ gem 'devise'
 gem 'devise-jwt'
 gem 'fast_jsonapi'
 gem 'rswag'
+gem 'ffi', '~> 1.15', '>= 1.15.5'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.3'

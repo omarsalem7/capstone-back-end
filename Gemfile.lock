@@ -125,6 +125,8 @@ GEM
       i18n (>= 1.8.11, < 2)
     fast_jsonapi (1.5)
       activesupport (>= 4.2)
+    ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.10.0)
@@ -309,6 +311,7 @@ DEPENDENCIES
   factory_bot_rails
   faker
   fast_jsonapi
+  ffi (~> 1.15, >= 1.15.5)
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors
