@@ -67,3 +67,45 @@ rails db:create
 rails db:migrate
 rails db:seed
 ```
+### Usage
+
+Start server with:
+
+```
+rails server -p 3001
+```
+
+Visit http://localhost:3001/ in your browser.
+
+### Run tests
+
+Install npm with:
+
+```
+npm install
+```
+
+Install rspec with:
+
+```
+bundle install
+```
+
+and
+
+```
+rails generate rspec:install
+```
+
+run the test with:
+
+```
+rspec spec
+```
+### Open API documentation
+
+```
+rails rswag:specs:swaggerize
+```
+
+Visit http://localhost:3001/api-docs in your browser.
