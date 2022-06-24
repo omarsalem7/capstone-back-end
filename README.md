@@ -109,3 +109,40 @@ rails rswag:specs:swaggerize
 ```
 
 Visit http://localhost:3001/api-docs in your browser.
+
+## Visit And Open Files
+
+[Visit Repo](https://github.com/omarsalem7/capstone-back-end)
+
+
+## Authors
+
+👤 **Omar Salem**
+
+- GitHub: [Omar Salem](https://github.com/omarsalem7)
+- Twitter: [Omar Salem](https://twitter.com/Omar80491499)
+- LinkedIn: [Omar Salem](https://www.linkedin.com/in/omar-salem-a6945b177/)
+
+👤 **Stephan**
+
+- GitHub: [@stephan](https://github.com/sneeu-leeu)
+- Twitter: [@Stephan](https://twitter.com/Stephan07484055)
+- LinkedIn: [Stephan Annandale](https://www.linkedin.com/in/stephan-annandale-a4b4931a9/)
+  
+👤 **Josphat Nkonde**
+
+- GitHub: [@zairdon20](https://github.com/zairdon20)
+- Twitter: [@josphat1 nkonde](https://twitter.com/josphat-nkonde)
+- LinkedIn: [@josphat nkonde](https://www.linkedin.com/in/josphat-nkonde)
+
+👤 **Benjmain Semah**
+
+- GitHub: [@BenjaminSemah](https://github.com/BenjaminSemah)
+- Twitter: [@BenjaminSemah](https://twitter.com/BenjaminSemah)
+- LinkedIn: [@BenjaminSemah](https://www.linkedin.com/in/benjaminsemah/)
+
+👤 **Butler shimalwani**
+
+- GitHub: [@Butlermuwo](https://github.com/butlermuwo)
+- Twitter: [@Butlermuwo](https://twitter.com/ButlerMuwo)
+- LinkedIn: [@Butlermuwo](https://www.linkedin.com/in/butlermuwo)
