@@ -1,24 +1,6 @@
-# README
+![](https://img.shields.io/badge/goldensquad-orange)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Book A Golf Course Backend
 
-Things you may want to cover:
+> Book A Golf Course backend is rails backend application for booking golf courses. This applications works with API endpoints and users can load, create, and delete Coursess and Add reservations. Users need to sign up or sign in to access the API endponits. They can sign up or sign in using the API endponts.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
