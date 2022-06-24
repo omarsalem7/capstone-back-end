@@ -1,3 +1,3 @@
 class WelcomeController < ApplicationController
-  index; end
+  def index; end
 end
