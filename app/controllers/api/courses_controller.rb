@@ -1,5 +1,5 @@
 class Api::CoursesController < ApplicationController
-  before_action :authenticate_user!
+  before_action :authenticate_user!, except: %i[index show]
   def index
     courses = Course.order(created_at: :DESC)
     render json: courses
