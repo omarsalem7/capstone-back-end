@@ -5,6 +5,11 @@ class Api::CoursesController < ApplicationController
     render json: courses
   end
 
+  def show
+    @course = Course.find(params[:id])
+    render json: @course
+  end
+
   def create
     @course = Course.new(course_params)
 
@@ -16,6 +21,8 @@ class Api::CoursesController < ApplicationController
     @course.destroy
     render json: '"Course deleted successfully"', status: :ok
   end
+
+  private
 
   # Only allow a list of trusted parameters through.
   def course_params
