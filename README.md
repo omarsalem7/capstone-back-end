@@ -146,3 +146,21 @@ Visit http://localhost:3001/api-docs in your browser.
 - GitHub: [@Butlermuwo](https://github.com/butlermuwo)
 - Twitter: [@Butlermuwo](https://twitter.com/ButlerMuwo)
 - LinkedIn: [@Butlermuwo](https://www.linkedin.com/in/butlermuwo)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/omarsalem7/capstone-back-end/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Inspiration: Microverse
+
+## 📝 License
+
+This project is [MIT](./LICENSE.md) licensed.
