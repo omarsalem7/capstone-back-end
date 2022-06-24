@@ -8,10 +8,10 @@ Rails.application.routes.draw do
     sign_out: 'logout',
     registration: 'signup'
   },
-  controllers: {
-    sessions: 'users/sessions',
-    registrations: 'users/registrations'
-  }
+                     controllers: {
+                       sessions: 'users/sessions',
+                       registrations: 'users/registrations'
+                     }
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   namespace :api do
