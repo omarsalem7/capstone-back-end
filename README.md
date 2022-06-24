@@ -27,3 +27,43 @@
 - Framworks (Ruby on Rails)
 - Testing library (Rspec)
 - API docs (Rswag)
+
+## Live version
+
+[In progress]
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- A text editor(preferably Visual Studio Code)
+
+### Install
+- Ruby
+- Ruby on Rails
+- PostgresSQL
+
+### Using it Locally
+
+- Clone the project
+```
+git clone https://github.com/omarsalem7/capstone-back-end
+cd capstone-back-end
+```
+
+### Setup
+
+Install gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
