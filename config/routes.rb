@@ -18,4 +18,7 @@ Rails.application.routes.draw do
     resources :courses
     resources :reservations
   end
+  
+  # for deployment
+  root 'welcome#index'
 end
