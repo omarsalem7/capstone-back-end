@@ -28,7 +28,7 @@ default: &default
 development:
   <<: *default
   database: capstone_back_end_development
-  username: mymac
+  # username: mymac
   #####################
   # Omar configuration
   # username: postgres
