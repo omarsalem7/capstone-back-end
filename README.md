@@ -54,6 +54,16 @@ cd capstone-back-end
 
 ### Setup
 
+Add your username & password in `database.yml` file:
+```
+username: <your_username>
+password: <your_password>
+```
+Specify your ruby version if different from mine
+```
+ruby 'Your_ruby_version'
+```
+
 Install gems with:
 
 ```
