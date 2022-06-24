@@ -27,10 +27,7 @@ Course.create(name: 'Expert golf', description: 'this is the seccond training co
 Course.create(name: 'golf train', description: 'this is the first training course', location: 'Egypt', size: '5*6',
               price: 455, image: 'https://images.freeimages.com/images/large-previews/1c6/golf-ball-in-the-fairway-1394202.jpg')
 
-User.create(name:"test")
+User.create(name:"admin0",email:"admin0@gmail.com", admin:true, password: "mypassword", password_confirmation: "mypassword",)
 Reservation.create(date:"21-7-2022", city:"cairo",user_id: 1, course_id: 1)
 Reservation.create(date:"22-5-2023", city:"Egypt",user_id: 1, course_id: 2)
-User.create(name: 'test', role: 'admin')
-Reservation.create(date: '21-7-2022', city: 'cairo', user_id: 1, course_id: 1)
-Reservation.create(date: '22-5-2023', city: 'Egypt', user_id: 1, course_id: 2)
 
